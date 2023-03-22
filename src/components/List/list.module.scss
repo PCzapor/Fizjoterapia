@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  padding: 2rem 7%;
+  font-size: 1.4rem;
+  gap: 2rem;
+}
+.listBox {
+  width: 40%;
+  text-align: center;
+  h2 {
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      padding-left: 0.9rem;
+      font-size: 1.4rem;
+    }
+  }
+  ul {
+    text-align: left;
+  }
+  li {
+    padding-top: 0.3rem;
+  }
+}
+
+.descHidden {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+}
+.desc {
+  height: auto;
+  max-height: 9999;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  white-space: pre-line;
+  padding: 0.5rem 0.5rem;
+  line-height: 145%;
+}
