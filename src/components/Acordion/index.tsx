@@ -5,7 +5,7 @@ import { DATA } from "../../../public/DATA";
 const AcordionComponent = () => {
   const [isActive, setIsActive] = useState<number>();
 
-  function handleClick(i) {
+  function handleClick(i: number) {
     if (isActive === i) {
       return setIsActive(undefined);
     }
