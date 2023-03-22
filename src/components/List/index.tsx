@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { KURSY, WARSZTATY, WYKSZTALCENIE } from "../../../public/DATA";
+import { KURSY, WARSZTATY, WYKSZTALCENIE } from "../../fixtures/";
 import styles from "./list.module.scss";
 const ListComponent = () => {
   const [isActive, setIsActive] = useState<boolean>();

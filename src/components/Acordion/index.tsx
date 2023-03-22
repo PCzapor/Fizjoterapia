@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import styles from "./acordion.module.scss";
-import { DATA } from "../../../public/DATA";
+import { DATA } from "../../fixtures/";
 const AcordionComponent = () => {
   const [isActive, setIsActive] = useState<number>();
 
@@ -10,7 +10,6 @@ const AcordionComponent = () => {
       return setIsActive(undefined);
     }
     setIsActive(i);
-    console.log({ isActive });
   }
 
   return (
