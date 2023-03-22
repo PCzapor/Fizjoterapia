@@ -7,9 +7,12 @@ import ContactComponent from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      {/* <Head>
+      <Head>
+        <title>Śmiejemy się bo piotrek nie umi programować</title>
+      </Head>
+      <header>
         <Baner />
-      </Head> */}
+      </header>
       <main>
         <MainComponent />
         <ListComponent />
