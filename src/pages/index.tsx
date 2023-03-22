@@ -7,9 +7,9 @@ import ContactComponent from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <Baner />
-      </Head>
+      </Head> */}
       <main>
         <MainComponent />
         <ListComponent />
