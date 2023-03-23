@@ -3,8 +3,16 @@
   height: 500px;
   display: flex;
   flex-direction: row;
+  @media (max-width: 900px) {
+    padding-left: 0;
+    width: 350px;
+  }
   img {
     width: 100%;
     padding-left: 10%;
+    @media (max-width: 900px) {
+      padding-left: 0;
+      object-fit: contain;
+    }
   }
 }

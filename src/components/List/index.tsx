@@ -20,7 +20,7 @@ const ListComponent = () => {
     <div className={styles.container}>
       <div className={styles.listBox}>
         <h2 onClick={handleClick}>
-          WYKSZTAŁCENIE <span>{isActive ? "Zwiń" : "Więcej"}</span>
+          WYKSZTAŁCENIE <span>{isActive ? "-" : "+"}</span>
         </h2>
         {WYKSZTALCENIE.map((item, i) => {
           return (
@@ -33,7 +33,7 @@ const ListComponent = () => {
       <div className={styles.listBox}>
         <h2 onClick={handleClick1}>
           KURSY
-          <span>{isActive1 ? "Zwiń" : "Więcej"}</span>
+          <span>{isActive1 ? "-" : "+"}</span>
         </h2>
         {KURSY.map((item, i) => {
           return (
@@ -46,7 +46,7 @@ const ListComponent = () => {
       <div className={styles.listBox}>
         <h2 onClick={handleClick2}>
           WARSZTATY
-          <span>{isActive2 ? "Zwiń" : "Więcej"}</span>
+          <span>{isActive2 ? "-" : "+"}</span>
         </h2>
         {WARSZTATY.map((item, i) => {
           return (

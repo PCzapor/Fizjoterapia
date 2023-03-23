@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Śmiejemy się bo piotrek nie umi programować</title>
+        <title>Rehabilitacja Agnieszka Czapor</title>
       </Head>
       <header>
         <Baner />

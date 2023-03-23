@@ -3,9 +3,19 @@
   display: flex;
   padding: 0 5%;
   justify-content: center;
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 .b {
   padding-left: 2rem;
   justify-content: center;
   display: flex;
+  @media (max-width: 480px) {
+    display: none;
+  }
+  @media (max-width: 900px) {
+    padding-left: 0;
+  }
 }
