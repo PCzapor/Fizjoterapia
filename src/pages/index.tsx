@@ -9,6 +9,15 @@ export default function Home() {
     <>
       <Head>
         <title>Rehabilitacja Agnieszka Czapor</title>
+        <meta
+          name="description"
+          content="Zabiegi rehabilitacyjne, ulga w bólu, "
+        />
+        <meta
+          name="keywords"
+          content="Rehabilitacja, Rzeszów, Agnieszka Czapor, Udar, Złamanie, Fizjoterapia"
+        />
+        <meta name="author" content="Piotr Czapor" />
       </Head>
       <header>
         <Baner />

@@ -3,11 +3,15 @@ import styles from "./contact.module.scss";
 const ContactComponent = () => {
   return (
     <div className={styles.container}>
-      <h2>Adres ul. Podwisłocze 21</h2>
-      <h3>Zapraszam od poniedziałek do piątek w godzinach 8:00 - 20:00</h3>
+      <h2>Rzeszów ul. Podwisłocze 21</h2>
       <h3>
-        Dla klientów parking bezpłatny po zarejstrowaniu samochodu na tablecie
-        znajdujacym się w środku budynku (na wprost od wejścia)
+        Zapraszam od poniedziałku do piątku w godzinach 8:00 - 20:00 po
+        wcześniejszym umówieniu telefonicznym.
+      </h3>
+      <h3>tel. 517-806-136</h3>
+      <h3>
+        Dla klientów parking bezpłatny. (po zarejstrowaniu samochodu na tablecie
+        znajdujacym się w środku budynku na wprost od wejścia)
       </h3>
       <div className={styles.mapBox}>
         <iframe
