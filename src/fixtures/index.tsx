@@ -13,7 +13,7 @@ export const DATA = [
   },
 
   {
-    name: "ĆWICZENIA INDYWIDUALNE W DOMU PACJENTA/ W GABINECIE",
+    name: "ĆWICZENIA W DOMU PACJENTA/ W GABINECIE",
     desc: `Ćwiczenia prowadzone w domu pacjenta, zwłaszcza u osób po udarach, zawałach, po operacjach…  Wszystkie osoby, które nie są w stanie dotrzeć do gabinetu a wymagają usprawnienia. Ćwiczenia na kozetce, macie, z udziałem przyrządów: piłki, taśmy, hantle, dysk sensoryczny i inne. 
     Pacjent powinien być w stroju umożliwiającym ćwiczenia (wygodnym, nie krępującym ruchów 
     - część pacjentów wymaga nauki poprawnego wykonywania ćwiczeń. 

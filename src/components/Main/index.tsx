@@ -5,9 +5,7 @@ import styles from "./main.module.scss";
 const MainComponent = () => {
   return (
     <div className={styles.a}>
-      <div className={styles.b}>
-        <PhotoBox />
-      </div>
+      <div className={styles.b}>{/* <PhotoBox /> */}</div>
       <AcordionComponent />
     </div>
   );

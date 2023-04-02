@@ -3,13 +3,16 @@
   display: flex;
   padding: 0 5%;
   justify-content: center;
+  height: 650px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
   }
   @media (max-width: 900px) and (min-width: 481px) {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
   }
 }
 .b {

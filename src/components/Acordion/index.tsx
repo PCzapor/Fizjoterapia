@@ -24,7 +24,7 @@ const AcordionComponent = () => {
               className={styles.title}
             >
               <h2>{item.name}</h2>
-              <span>{isActive === i ? "-" : "+"}</span>
+              {/* <span>{isActive === i ? "-" : "+"}</span> */}
             </div>
             <div className={isActive === i ? styles.desc : styles.descHidden}>
               {item.desc}

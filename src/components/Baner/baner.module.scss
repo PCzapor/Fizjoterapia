@@ -1,6 +1,6 @@
 .banerBox {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
     height: 45vh;
   }
   img {
-    width: 60%;
+    width: 100%;
     height: 100%;
     @media (max-width: 480px) {
       width: 100%;

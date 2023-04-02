@@ -1,7 +1,7 @@
 .acordionBox {
   width: 50%;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   font-size: 1.4rem;
   @media (max-width: 480px) {
@@ -15,18 +15,27 @@
 }
 .acordion {
   width: 750px;
+  :last-child {
+    padding: 0px 20px;
+    margin-bottom: 0px;
+  }
 }
 .item {
   margin-bottom: 5px;
-  padding: 10px 20px;
+  padding: 2px 20px;
 }
 .title {
-  border-bottom: white 1px solid;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  h2 {
+    font-weight: normal;
+  }
+  h2:hover {
+    scale: 1.1;
+  }
 }
 .descHidden {
   overflow: hidden;
@@ -36,10 +45,12 @@
 }
 .desc {
   height: auto;
-  max-height: 9999;
+
+  display: block;
   transition: all 0.5s ease-in-out;
   color: white;
   white-space: pre-line;
   padding: 0.5rem 0.5rem;
   line-height: 145%;
+  letter-spacing: 0.2rem;
 }

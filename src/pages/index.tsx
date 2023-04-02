@@ -3,7 +3,7 @@ import Baner from "../components/Baner";
 import MainComponent from "@/components/Main";
 import ListComponent from "@/components/List";
 import ContactComponent from "@/components/Contact";
-
+import "@fontsource/bebas-neue";
 export default function Home() {
   return (
     <>
