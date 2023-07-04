@@ -18,6 +18,20 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/List/index.js",
+    "src/components/PhotoBox/index.js",
+    "src/fixtures/index.js",
+    "src/pages/_app.js",
+    "src/pages/_document.js",
+    "src/pages/index.js",
+    "src/components/Main/index.js",
+    "src/components/Acordion/index.js",
+    "src/components/Baner/index.js",
+    "src/components/Contact/index.js"
+  ],
   "exclude": ["node_modules"]
 }

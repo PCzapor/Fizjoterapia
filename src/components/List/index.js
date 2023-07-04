@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { KURSY, WARSZTATY, WYKSZTALCENIE } from "../../fixtures/";
+import { KURSY, WARSZTATY, WYKSZTALCENIE } from "../../fixtures";
 import styles from "./list.module.scss";
 const ListComponent = () => {
-  const [isActive, setIsActive] = useState<boolean>();
-  const [isActive1, setIsActive1] = useState<boolean>();
-  const [isActive2, setIsActive2] = useState<boolean>();
+  const [isActive, setIsActive] = useState();
+  const [isActive1, setIsActive1] = useState();
+  const [isActive2, setIsActive2] = useState();
   function handleClick() {
     setIsActive(!isActive);
   }
@@ -19,10 +19,7 @@ const ListComponent = () => {
   return (
     <div className={styles.container}>
       <div className={styles.listBox}>
-        <h2 onClick={handleClick}>
-          WYKSZTAŁCENIE
-          {/* <span>{isActive ? "-" : "+"}</span> */}
-        </h2>
+        <h2 onClick={handleClick}>WYKSZTAŁCENIE</h2>
         {WYKSZTALCENIE.map((item, i) => {
           return (
             <ul key={i} className={isActive ? styles.desc : styles.descHidden}>
@@ -32,10 +29,7 @@ const ListComponent = () => {
         })}
       </div>
       <div className={styles.listBox}>
-        <h2 onClick={handleClick1}>
-          KURSY
-          {/* <span>{isActive1 ? "-" : "+"}</span> */}
-        </h2>
+        <h2 onClick={handleClick1}>KURSY</h2>
         {KURSY.map((item, i) => {
           return (
             <ul key={i} className={isActive1 ? styles.desc : styles.descHidden}>
@@ -45,10 +39,7 @@ const ListComponent = () => {
         })}
       </div>
       <div className={styles.listBox}>
-        <h2 onClick={handleClick2}>
-          WARSZTATY
-          {/* <span>{isActive2 ? "-" : "+"}</span> */}
-        </h2>
+        <h2 onClick={handleClick2}>WARSZTATY</h2>
         {WARSZTATY.map((item, i) => {
           return (
             <ul key={i} className={isActive2 ? styles.desc : styles.descHidden}>

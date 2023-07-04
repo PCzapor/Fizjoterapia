@@ -19,10 +19,26 @@
     padding: 0px 20px;
     margin-bottom: 0px;
   }
+  @media (max-width: 480px) {
+    :last-child {
+      padding: 0px 0px;
+    }
+  }
+  @media (max-width: 900px) {
+    :last-child {
+      padding: 0px 0px;
+    }
+  }
 }
 .item {
   margin-bottom: 5px;
   padding: 2px 20px;
+  @media (max-width: 480px) {
+    padding: 0px 0px;
+  }
+  @media (max-width: 900px) {
+    padding: 0px 0px;
+  }
 }
 .title {
   color: white;
@@ -45,7 +61,6 @@
 }
 .desc {
   height: auto;
-
   display: block;
   transition: all 0.5s ease-in-out;
   color: white;
@@ -53,4 +68,12 @@
   padding: 0.5rem 0.5rem;
   line-height: 145%;
   letter-spacing: 0.2rem;
+  @media (max-width: 480px) {
+    padding: 0px 0px;
+    letter-spacing: 0;
+  }
+  @media (max-width: 900px) {
+    padding: 0px 0px;
+    letter-spacing: 0;
+  }
 }
